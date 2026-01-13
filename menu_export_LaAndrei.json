@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Apa Plata",
+    "price": 8.0,
+    "type": "Drinks",
+    "unit": " ml",
+    "measure": 500.0
+  },
+  {
+    "name": "Bere Corona",
+    "price": 12.0,
+    "type": "Drinks",
+    "unit": " ml",
+    "measure": 330.0,
+    "extra": "4.5% alc."
+  },
+  {
+    "name": "Desert Tiramisu",
+    "price": 35.0,
+    "type": "Food",
+    "unit": " g",
+    "measure": 150.0
+  },
+  {
+    "name": "Limonada",
+    "price": 15.0,
+    "type": "Drinks",
+    "unit": " ml",
+    "measure": 400.0
+  },
+  {
+    "name": "Paste Carbonara",
+    "price": 52.5,
+    "type": "Food",
+    "unit": " g",
+    "measure": 400.0
+  },
+  {
+    "name": "Pizza Margherita",
+    "price": 45.0,
+    "type": "Food",
+    "unit": " g",
+    "measure": 450.0
+  },
+  {
+    "name": "Vin Rosu",
+    "price": 25.0,
+    "type": "Drinks",
+    "unit": " ml",
+    "measure": 150.0,
+    "extra": "13% alc."
+  }
+]
