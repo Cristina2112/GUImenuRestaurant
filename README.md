@@ -41,11 +41,15 @@ Sistem complet de gestiune pentru restaurante, dezvoltat ca proiect academic pen
 
 ---
 
-## Strucura Proiectului
+##  Structura Proiectului
+
+Aplicația este organizată modular, respectând principiile de separare a responsabilităților (Separation of Concerns):
+
+```text
 src/main/java/org/example/
-├──  controller/  # Business logic & flow control (Admin, Staff, Login)
-├──  model/       # JPA Entities & Product hierarchy (Sealed/Abstract classes)
-├──  repository/  # Data Access Layer (JPA/Hibernate)
-├──  util/         # JSON Helpers (Configuration & Export utilities)
-├──  view/         # Programmatic JavaFX UI components
-└──  Launch.java   # Application entry point
+├──  controller/  # Logica de control (Admin, Staff, Login)
+├──  model/       # Entități JPA și ierarhia de produse (Sealed/Abstract)
+├──  repository/  # Stratul de date (JPA/Hibernate)
+├──  util/         # Helperi JSON (Configurații și Export)
+├──  view/         # Componente UI JavaFX (construite programatic)
+└──  Launch.java   # Punctul de intrare în aplicație
