@@ -41,16 +41,7 @@ Sistem complet de gestiune pentru restaurante, dezvoltat ca proiect academic pen
 
 ---
 
-##  Instalare și Rulare
-
-### 1. Configurare Bază de Date
-Asigurați-vă că aveți PostgreSQL instalat și creați baza de date configurată în `persistence.xml`:
-```xml
-<property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/restaurant_db"/>
-
----
-
-Strucura Proiectului
+## Strucura Proiectului
 src/main/java/org/example/
 ├── controller/   # Logica de control (Admin, Staff, Login)
 ├── model/        # Entități JPA și ierarhia de produse (Sealed/Abstract)
